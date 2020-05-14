@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Green Shopping</name>
+    <description>A directory created by the Creation Care Cohort to help our church shop more environmentally friendly.</description>
+    <Style id="icon-1549-FFD600-nodesc-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1549-FFD600-nodesc-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1549-FFD600-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1549-FFD600-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1549-FFD600-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1553-A52714-nodesc-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1553-A52714-nodesc-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1553-A52714-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1553-A52714-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1553-A52714-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1578-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1578-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1578-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1578-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1578-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1578-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1578-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1578-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1578-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1578-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1578-F57C00-nodesc-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1578-F57C00-nodesc-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1578-F57C00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1578-F57C00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1578-F57C00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1587-795548-nodesc-normal">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1587-795548-nodesc-highlight">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1587-795548-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1587-795548-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1587-795548-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1670-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1670-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1670-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1670-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1670-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1687-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1687-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1687-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1687-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1687-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1687-9C27B0-nodesc-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1687-9C27B0-nodesc-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1687-9C27B0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1687-9C27B0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1687-9C27B0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>The Vine</name>
+      <Placemark>
+        <name>The Vine Church</name>
+        <styleUrl>#icon-1670-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1765289,22.2763367,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Bakery</name>
+      <Placemark>
+        <name>Mayse Artisan Bakery</name>
+        <styleUrl>#icon-1587-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.2326498,22.4730438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Levain Bakery</name>
+        <styleUrl>#icon-1587-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1515992,22.2833472,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Levain Bakery Caine Road</name>
+        <styleUrl>#icon-1587-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1516326,22.2817761,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coco Espresso x Levain Bakery</name>
+        <styleUrl>#icon-1587-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1708277,22.2757866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Village Bakery</name>
+        <styleUrl>#icon-1587-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.0011157,22.263876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[Butcher & Deli]]></name>
+      <Placemark>
+        <name><![CDATA[Feather & Bone - Central]]></name>
+        <styleUrl>#icon-1553-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1534679,22.2830105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Feather & Bone - Clearwater Bay]]></name>
+        <styleUrl>#icon-1553-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.2602778,22.3356787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Feather & Bone - Mid Levels]]></name>
+        <styleUrl>#icon-1553-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1512508,22.2800228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Feather & Bone - Wanchai]]></name>
+        <styleUrl>#icon-1553-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1713606,22.2768303,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Feather & Bone - Happy Valley]]></name>
+        <styleUrl>#icon-1553-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1840875,22.2695352,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Feather & Bone - Sai Ying Pun]]></name>
+        <styleUrl>#icon-1553-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1388683,22.2876058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Feather & Bone - Tsuen Wan]]></name>
+        <styleUrl>#icon-1553-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1091824,22.3686699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[Food & Drink (Eco-Friendly / Bulk)]]></name>
+      <Placemark>
+        <name>Slowood</name>
+        <description><![CDATA[Also:<br>Household<br>Bath & Beauty]]></description>
+        <styleUrl>#icon-1578-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            114.1270801,22.2817477,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Regency Spices</name>
+        <styleUrl>#icon-1578-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1167085,22.3658505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>teakha</name>
+        <styleUrl>#icon-1578-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1484562,22.2845007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plantation by teakha 茶莊</name>
+        <styleUrl>#icon-1578-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.136381,22.284845,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>YUAN HENG SPICE COMPANY</name>
+        <styleUrl>#icon-1578-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1494934,22.2852553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Live Zero Bulk Foods - Sai Ying Pun</name>
+        <description><![CDATA[Also:<br>Household<br>Bath & Beauty]]></description>
+        <styleUrl>#icon-1578-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            114.1426443,22.2852246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Live Zero Bulk Foods - Sai Kung</name>
+        <description><![CDATA[Also:<br>Household<br>Bath & Beauty]]></description>
+        <styleUrl>#icon-1578-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            114.2710891,22.3805936,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>vom FASS Hong Kong</name>
+        <description><![CDATA[Other locations:<br>Admiralty<br>Kowloon Tong<br>Sha Tin<br>Yuen Long]]></description>
+        <styleUrl>#icon-1578-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            114.175433,22.300472,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lively Life</name>
+        <description><![CDATA[Also:<br>Household<br>Bath & Beauty]]></description>
+        <styleUrl>#icon-1578-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            114.1778846,22.277688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[SpiceBox Organics Market & Café]]></name>
+        <description><![CDATA[Also:<br>Household<br>Bath & Beauty]]></description>
+        <styleUrl>#icon-1578-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            114.1498113,22.2829992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[SpiceBox Organics Store & Café]]></name>
+        <description><![CDATA[Also:<br>Household<br>Bath & Beauty]]></description>
+        <styleUrl>#icon-1578-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            114.127098,22.282861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seed</name>
+        <description><![CDATA[Also available:<br>Household<br>Bath & Beauty]]></description>
+        <styleUrl>#icon-1578-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            114.2712484,22.3807325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Edgar</name>
+        <description><![CDATA[Also:<br>Household<br>Bath & Beauty<br>Pet]]></description>
+        <styleUrl>#icon-1578-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            114.1684939,22.2764046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FoodCraft</name>
+        <description><![CDATA[Also:<br>Household<br>Bath & Beauty]]></description>
+        <styleUrl>#icon-1578-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            114.122069,22.2817555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Great Food Hall</name>
+        <description><![CDATA[Contains:<br>- Ecostore<br>- Vom FASS]]></description>
+        <styleUrl>#icon-1578-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            114.164424,22.2776096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Organic We</name>
+        <description><![CDATA[Also:<br>Household<br>Bath & Beauty<br>Pet]]></description>
+        <styleUrl>#icon-1578-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            114.1701335,22.317306,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Household (Eco-Friendly / Bulk)</name>
+    </Folder>
+    <Folder>
+      <name><![CDATA[Bath & Beauty (Eco-Friendly / Bulk)]]></name>
+      <Placemark>
+        <name>Bathe to Basics</name>
+        <description><![CDATA[Also:<br>Household]]></description>
+        <styleUrl>#icon-1687-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            114.152098,22.2832341,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lush Fresh Handmade Cosmetics (Soho Square)</name>
+        <styleUrl>#icon-1687-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.154082,22.2826007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lush Fresh Handmade Cosmetic (Central MTR Station)</name>
+        <styleUrl>#icon-1687-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1583992,22.2818895,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lush Fresh Handmade Cosmetics (Harbour City LCX)</name>
+        <styleUrl>#icon-1687-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1668799,22.2950249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lush Fresh Handmade Cosmetic (K11 Musea)</name>
+        <styleUrl>#icon-1687-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1742345,22.2944049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LUSH Fresh Handmade Cosmetics (Granville Road)</name>
+        <styleUrl>#icon-1687-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.173887,22.299802,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lush Fresh Handmade Cosmetic (Causeway Bay Lockhart Road)</name>
+        <styleUrl>#icon-1687-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.183043,22.28051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lush Fresh Handmade Cosmetics (Great George Street)</name>
+        <styleUrl>#icon-1687-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1852834,22.2802128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lush Fresh Handmade Cosmetics (Telford Plaza)</name>
+        <styleUrl>#icon-1687-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.2134632,22.3229379,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lush Fresh Handmade Cosmetics (Shatin New Town Plaza)</name>
+        <styleUrl>#icon-1687-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1875319,22.379888,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lush Fresh Handmade Cosmetic (Tuen Mun Town Plaza)</name>
+        <styleUrl>#icon-1687-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            113.9765037,22.3932499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Fashion</name>
+      <Placemark>
+        <name>Green Ladies</name>
+        <styleUrl>#icon-1549-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1449275,22.2868407,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Green Ladies Wanchai</name>
+        <styleUrl>#icon-1549-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1778322,22.277894,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Market</name>
+      <Placemark>
+        <name>Wan Chai Wet Market</name>
+        <styleUrl>#icon-1578-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1807255,22.2783263,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wan Chai Market</name>
+        <styleUrl>#icon-1578-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1737208,22.2745394,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gage Street Day Market</name>
+        <styleUrl>#icon-1578-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1534696,22.2831966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sai Ying Pun Market</name>
+        <styleUrl>#icon-1578-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.142421,22.285976,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Smithfield Market</name>
+        <styleUrl>#icon-1578-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1286074,22.2816862,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shek Tong Tsui Market and Cooked Food Centre</name>
+        <styleUrl>#icon-1578-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1360276,22.2856546,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mui Wo Market</name>
+        <styleUrl>#icon-1578-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            113.996593,22.266914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fu Tung Market</name>
+        <styleUrl>#icon-1578-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            113.9422812,22.2887602,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
