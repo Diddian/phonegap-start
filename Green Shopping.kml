@@ -14,9 +14,7 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
+
     </Style>
     <Style id="icon-1549-FFD600-nodesc-highlight">
       <IconStyle>
@@ -29,9 +27,7 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
+
     </Style>
     <StyleMap id="icon-1549-FFD600-nodesc">
       <Pair>
@@ -54,9 +50,7 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
+
     </Style>
     <Style id="icon-1553-A52714-nodesc-highlight">
       <IconStyle>
@@ -69,9 +63,7 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
+
     </Style>
     <StyleMap id="icon-1553-A52714-nodesc">
       <Pair>
@@ -128,9 +120,7 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
+
     </Style>
     <Style id="icon-1578-7CB342-nodesc-highlight">
       <IconStyle>
@@ -143,9 +133,7 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
+
     </Style>
     <StyleMap id="icon-1578-7CB342-nodesc">
       <Pair>
@@ -168,9 +156,7 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
+
     </Style>
     <Style id="icon-1578-F57C00-nodesc-highlight">
       <IconStyle>
@@ -183,9 +169,7 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
+
     </Style>
     <StyleMap id="icon-1578-F57C00-nodesc">
       <Pair>
@@ -208,9 +192,7 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
+
     </Style>
     <Style id="icon-1587-795548-nodesc-highlight">
       <IconStyle>
@@ -223,9 +205,7 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
+
     </Style>
     <StyleMap id="icon-1587-795548-nodesc">
       <Pair>
@@ -248,9 +228,7 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
+
     </Style>
     <Style id="icon-1670-0288D1-nodesc-highlight">
       <IconStyle>
@@ -263,9 +241,7 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
+
     </Style>
     <StyleMap id="icon-1670-0288D1-nodesc">
       <Pair>
@@ -322,9 +298,7 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
+
     </Style>
     <Style id="icon-1687-9C27B0-nodesc-highlight">
       <IconStyle>
@@ -337,9 +311,7 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
+
     </Style>
     <StyleMap id="icon-1687-9C27B0-nodesc">
       <Pair>
@@ -412,9 +384,9 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name><![CDATA[Butcher & Deli]]></name>
+      <name>Butcher & Deli</name>
       <Placemark>
-        <name><![CDATA[Feather & Bone - Central]]></name>
+        <name>Feather & Bone - Central</name>
         <styleUrl>#icon-1553-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -423,7 +395,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name><![CDATA[Feather & Bone - Clearwater Bay]]></name>
+        <name>Feather & Bone - Clearwater Bay</name>
         <styleUrl>#icon-1553-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -432,7 +404,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name><![CDATA[Feather & Bone - Mid Levels]]></name>
+        <name>Feather & Bone - Mid Levels</name>
         <styleUrl>#icon-1553-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -441,7 +413,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name><![CDATA[Feather & Bone - Wanchai]]></name>
+        <name>Feather & Bone - Wanchai</name>
         <styleUrl>#icon-1553-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -450,7 +422,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name><![CDATA[Feather & Bone - Happy Valley]]></name>
+        <name>Feather & Bone - Happy Valley</name>
         <styleUrl>#icon-1553-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -459,7 +431,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name><![CDATA[Feather & Bone - Sai Ying Pun]]></name>
+        <name>Feather & Bone - Sai Ying Pun</name>
         <styleUrl>#icon-1553-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -468,7 +440,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name><![CDATA[Feather & Bone - Tsuen Wan]]></name>
+        <name>Feather & Bone - Tsuen Wan</name>
         <styleUrl>#icon-1553-A52714-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -478,10 +450,10 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name><![CDATA[Food & Drink (Eco-Friendly / Bulk)]]></name>
+      <name>Food & Drink (Eco-Friendly / Bulk)</name>
       <Placemark>
         <name>Slowood</name>
-        <description><![CDATA[Also:<br>Household<br>Bath & Beauty]]></description>
+        <description>Household<br>Bath & Beauty</description>
         <styleUrl>#icon-1578-7CB342</styleUrl>
         <Point>
           <coordinates>
@@ -527,7 +499,7 @@
       </Placemark>
       <Placemark>
         <name>Live Zero Bulk Foods - Sai Ying Pun</name>
-        <description><![CDATA[Also:<br>Household<br>Bath & Beauty]]></description>
+        <description>Household<br>Bath & Beauty</description>
         <styleUrl>#icon-1578-7CB342</styleUrl>
         <Point>
           <coordinates>
@@ -537,7 +509,7 @@
       </Placemark>
       <Placemark>
         <name>Live Zero Bulk Foods - Sai Kung</name>
-        <description><![CDATA[Also:<br>Household<br>Bath & Beauty]]></description>
+        <description>Household<br>Bath & Beauty</description>
         <styleUrl>#icon-1578-7CB342</styleUrl>
         <Point>
           <coordinates>
@@ -547,7 +519,7 @@
       </Placemark>
       <Placemark>
         <name>vom FASS Hong Kong</name>
-        <description><![CDATA[Other locations:<br>Admiralty<br>Kowloon Tong<br>Sha Tin<br>Yuen Long]]></description>
+        <description>Other locations:<br>Admiralty<br>Kowloon Tong<br>Sha Tin<br>Yuen Long</description>
         <styleUrl>#icon-1578-7CB342</styleUrl>
         <Point>
           <coordinates>
@@ -557,7 +529,7 @@
       </Placemark>
       <Placemark>
         <name>Lively Life</name>
-        <description><![CDATA[Also:<br>Household<br>Bath & Beauty]]></description>
+        <description>Household<br>Bath & Beauty</description>
         <styleUrl>#icon-1578-7CB342</styleUrl>
         <Point>
           <coordinates>
@@ -566,8 +538,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name><![CDATA[SpiceBox Organics Market & Café]]></name>
-        <description><![CDATA[Also:<br>Household<br>Bath & Beauty]]></description>
+        <name>SpiceBox Organics Market & Café</name>
+        <description>Household<br>Bath & Beauty</description>
         <styleUrl>#icon-1578-7CB342</styleUrl>
         <Point>
           <coordinates>
@@ -576,8 +548,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name><![CDATA[SpiceBox Organics Store & Café]]></name>
-        <description><![CDATA[Also:<br>Household<br>Bath & Beauty]]></description>
+        <name>SpiceBox Organics Store & Café</name>
+        <description>Household<br>Bath & Beauty</description>
         <styleUrl>#icon-1578-7CB342</styleUrl>
         <Point>
           <coordinates>
@@ -587,7 +559,7 @@
       </Placemark>
       <Placemark>
         <name>Seed</name>
-        <description><![CDATA[Also available:<br>Household<br>Bath & Beauty]]></description>
+        <description>Also available:<br>Household<br>Bath & Beauty</description>
         <styleUrl>#icon-1578-7CB342</styleUrl>
         <Point>
           <coordinates>
@@ -597,7 +569,7 @@
       </Placemark>
       <Placemark>
         <name>Edgar</name>
-        <description><![CDATA[Also:<br>Household<br>Bath & Beauty<br>Pet]]></description>
+        <description>Household<br>Bath & Beauty<br>Pet</description>
         <styleUrl>#icon-1578-7CB342</styleUrl>
         <Point>
           <coordinates>
@@ -607,7 +579,7 @@
       </Placemark>
       <Placemark>
         <name>FoodCraft</name>
-        <description><![CDATA[Also:<br>Household<br>Bath & Beauty]]></description>
+        <description>Household<br>Bath & Beauty</description>
         <styleUrl>#icon-1578-7CB342</styleUrl>
         <Point>
           <coordinates>
@@ -617,7 +589,7 @@
       </Placemark>
       <Placemark>
         <name>Great Food Hall</name>
-        <description><![CDATA[Contains:<br>- Ecostore<br>- Vom FASS]]></description>
+        <description>Contains:<br>- Ecostore<br>- Vom FASS</description>
         <styleUrl>#icon-1578-7CB342</styleUrl>
         <Point>
           <coordinates>
@@ -627,7 +599,7 @@
       </Placemark>
       <Placemark>
         <name>Organic We</name>
-        <description><![CDATA[Also:<br>Household<br>Bath & Beauty<br>Pet]]></description>
+        <description>Household<br>Bath & Beauty<br>Pet</description>
         <styleUrl>#icon-1578-7CB342</styleUrl>
         <Point>
           <coordinates>
@@ -640,10 +612,10 @@
       <name>Household (Eco-Friendly / Bulk)</name>
     </Folder>
     <Folder>
-      <name><![CDATA[Bath & Beauty (Eco-Friendly / Bulk)]]></name>
+      <name>Bath & Beauty (Eco-Friendly / Bulk)</name>
       <Placemark>
         <name>Bathe to Basics</name>
-        <description><![CDATA[Also:<br>Household]]></description>
+        <description>Household</description>
         <styleUrl>#icon-1687-9C27B0</styleUrl>
         <Point>
           <coordinates>
